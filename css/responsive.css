@@ -1,0 +1,44 @@
+@media all and (max-width: 750px) {
+
+	.grid__item:last-child {
+		grid-column: auto / auto;
+		grid-row: auto / auto;
+	}
+	.grid {
+		grid-gap: 10px;
+	}
+	h1 {
+		font-size: 3rem;
+	}
+}
+
+
+@media all and (max-width: 375px) {
+	
+
+	.grid {
+		grid-template-columns: 1fr;
+	}
+	.profile {
+		margin-top: 10px;
+	
+
+	}
+	.profile-portrait {
+	  border-radius: 50%;
+	  width: 300px;
+	  margin: 0 auto;
+	  margin-top: 0;
+	  margin-bottom: 20px;
+	
+	}
+
+	
+}
+
+@media all and (min-width: 376px) and (max-width: 792px) {
+
+	.grid {
+		grid-template-columns:1fr 1fr;
+	}
+}
